@@ -1,0 +1,41 @@
+{
+  "name": "docs-mcp",
+  "version": "2.0.0",
+  "description": "Local stdio MCP server for managing feature documentation in a GitHub repo (.docs/features/)",
+  "type": "module",
+  "bin": {
+    "docs-mcp": "./dist/stdio.js"
+  },
+  "main": "./dist/stdio.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/stdio.js",
+    "dev": "tsc --watch"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "documentation",
+    "spec-driven",
+    "github"
+  ],
+  "author": "Ron Koldeweid",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openpoem/docs-mcp.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
