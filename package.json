@@ -1,6 +1,7 @@
 {
   "name": "docs-mcp",
   "version": "2.0.0",
+  "private": true,
   "description": "Local stdio MCP server for managing feature documentation in a GitHub repo (.docs/features/)",
   "type": "module",
   "bin": {
